@@ -1,0 +1,28 @@
+# Obsidian
+.obsidian/
+.smart-env/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 大文件过滤
+*.m4a
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+*.flv
+*.mkv
+*.wmv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
