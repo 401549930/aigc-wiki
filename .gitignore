@@ -26,3 +26,11 @@ Thumbs.db
 
 # Environment
 .env
+
+# Images (可选提交，过大则不追踪)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
