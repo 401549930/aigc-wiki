@@ -1,0 +1,267 @@
+{
+  "id": "conv-1778721718198-24xddcsvl",
+  "providerId": "claude",
+  "title": "审查学习计划",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778721718204,
+  "updatedAt": 1778723311596,
+  "lastResponseAt": 1778723311596,
+  "sessionId": "7d9c8e47-a893-47aa-8b3a-b9361b60bf26",
+  "providerState": {
+    "providerSessionId": "7d9c8e47-a893-47aa-8b3a-b9361b60bf26",
+    "subagentData": {
+      "call_00_phXVZjc0nSrH808ATpcb6455": {
+        "id": "call_00_phXVZjc0nSrH808ATpcb6455",
+        "description": "检查引用笔记是否存在",
+        "prompt": "在 vault 根目录 C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki 中检查以下笔记文件是否存在。对于每个文件，报告是否存在。只查找不读内容。\n\n需要检查的笔记列表（来自 AIGC学习计划.md 的 frontmatter based_on 和正文中的 wiki链接）：\n1. index.md\n2. GPT Image 2.md\n3. concepts/prompt-formula-six-dimensions.md (或者 concepts/提示词六维度万能公式.md)\n4. concepts/clear-framework.md (或者 concepts/C.L.E.A.R.框架.md)\n5. concepts/portrait-prompt-templates.md (或者 concepts/人像摄影提示词模板.md)\n6. concepts/poster-prompt-templates.md (或者 concepts/海报设计提示词模板.md)\n7. concepts/ui-prompt-templates.md (或者 concepts/UI与社交媒体截图提示词模板.md)\n8. concepts/character-prompt-templates.md (或者 concepts/角色设计提示词模板.md)\n9. concepts/ecommerce-prompt-templates.md (或者 concepts/电商产品图提示词模板.md)\n10. concepts/style-mixing-strategies.md (或者 concepts/风格混合策略.md)\n11. concepts/commercial-path.md (或者 concepts/商业变现路径.md)\n12. 自回归图像生成.md\n\n请用 Glob 模式检查这些文件是否存在。例如: **/GPT Image 2.md, **/提示词六维度万能公式.md 等",
+        "status": "completed",
+        "toolCalls": [
+          {
+            "id": "call_00_GYNJJGjq3gyoEUbGYLle6455",
+            "name": "Glob",
+            "input": {
+              "pattern": "index.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "index.md"
+          },
+          {
+            "id": "call_01_UKynsW70gyLhqjlmC7SJ3195",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/GPT Image 2.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "GPT Image 2.md"
+          },
+          {
+            "id": "call_02_UTAOpwrzr9ZKVjjC4yt12267",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/提示词六维度万能公式.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "提示词六维度万能公式.md"
+          },
+          {
+            "id": "call_03_vwu3VqJGvu7Ou4gR6X6G2253",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/prompt-formula-six-dimensions.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\prompt-formula-six-dimensions.md"
+          },
+          {
+            "id": "call_04_zVAjL9u2nwK9S17STz6R0916",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/clear-framework.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\clear-framework.md"
+          },
+          {
+            "id": "call_05_j8stG4ev1EWo79HZzVrr0989",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/C.L.E.A.R.框架.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_06_QK1iW2xvPlSOovnvCfqE7640",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/portrait-prompt-templates.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\portrait-prompt-templates.md"
+          },
+          {
+            "id": "call_07_KswpVH3iz09KEpjPS5sx9038",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/人像摄影提示词模板.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "人像摄影提示词模板.md"
+          },
+          {
+            "id": "call_08_OHkYVXG7FJKO6rNU6XpQ9802",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/poster-prompt-templates.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\poster-prompt-templates.md"
+          },
+          {
+            "id": "call_09_ZLf7lAE2B11p58DWYOJP3735",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/海报设计提示词模板.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_10_7pvuZjIO71zMgWhBtKUF6259",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/ui-prompt-templates.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\ui-prompt-templates.md"
+          },
+          {
+            "id": "call_11_sC5OG6XS1u98NjtkMPc19185",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/UI与社交媒体截图提示词模板.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_12_8Y3EOfyPvDrnkHGY3VCM4043",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/character-prompt-templates.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\character-prompt-templates.md"
+          },
+          {
+            "id": "call_13_8Q3WRplY5mp3DOsM1m969569",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/角色设计提示词模板.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_14_uPOVrv6pP8wVA8mwRMpq5584",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/ecommerce-prompt-templates.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\ecommerce-prompt-templates.md"
+          },
+          {
+            "id": "call_15_iVEqWgcHt8NPzntgjpDR5706",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/电商产品图提示词模板.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_16_pOd2NF9FZ52OdqulivrE8629",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/style-mixing-strategies.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\style-mixing-strategies.md"
+          },
+          {
+            "id": "call_17_qLGv0YcTo9FehAXroZkG0864",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/风格混合策略.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_18_YBGyvFGKtm70Jq0bAkqI9897",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/commercial-path.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "concepts\\commercial-path.md"
+          },
+          {
+            "id": "call_19_nPDfzMLbTOluug9py7hG0433",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/商业变现路径.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          },
+          {
+            "id": "call_20_MdwPz7qE5eczMuhtoRzr7244",
+            "name": "Glob",
+            "input": {
+              "pattern": "**/自回归图像生成.md",
+              "path": "C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki"
+            },
+            "status": "completed",
+            "isExpanded": false,
+            "result": "No files found"
+          }
+        ],
+        "isExpanded": false,
+        "result": "以下是各笔记文件的检查结果：\n\n| # | 文件名 | 状态 | 路径 |\n|---|--------|------|------|\n| 1 | `index.md` | 存在 | `C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki\\index.md` |\n| 2 | `GPT Image 2.md` | 存在 | `C:\\Users\\76750\\Documents\\projects\\obsidian_projects\\aigc-wiki\\GPT Image 2.md` |\n| 3 | `concepts/prompt-formula-six-dimensions.md` | 存在 | `...\\aigc-wiki\\concepts\\prompt-formula-six-dimensions.md` |\n| 3 | 中文名 `提示词六维度万能公式.md` | 存在 | `...\\aigc-wiki\\提示词六维度万能公式.md`（在根目录，不在 concepts/） |\n| 4 | `concepts/clear-framework.md` | 存在 | `...\\aigc-wiki\\concepts\\clear-framework.md` |\n| 4 | 中文名 `C.L.E.A.R.框架.md` | **不存在** | |\n| 5 | `concepts/portrait-prompt-templates.md` | 存在 | `...\\aigc-wiki\\concepts\\portrait-prompt-templates.md` |\n| 5 | 中文名 `人像摄影提示词模板.md` | 存在 | `...\\aigc-wiki\\人像摄影提示词模板.md`（在根目录，不在 concepts/） |\n| 6 | `concepts/poster-prompt-templates.md` | 存在 | `...\\aigc-wiki\\concepts\\poster-prompt-templates.md` |\n| 6 | 中文名 `海报设计提示词模板.md` | **不存在** | |\n| 7 | `concepts/ui-prompt-templates.md` | 存在 | `...\\aigc-wiki\\concepts\\ui-prompt-templates.md` |\n| 7 | 中文名 `UI与社交媒体截图提示词模板.md` | **不存在** | |\n| 8 | `concepts/character-prompt-templates.md` | 存在 | `...\\aigc-wiki\\concepts\\character-prompt-templates.md` |\n| 8 | 中文名 `角色设计提示词模板.md` | **不存在** | |\n| 9 | `concepts/ecommerce-prompt-templates.md` | 存在 | `...\\aigc-wiki\\concepts\\ecommerce-prompt-templates.md` |\n| 9 | 中文名 `电商产品图提示词模板.md` | **不存在** | |\n| 10 | `concepts/style-mixing-strategies.md` | 存在 | `...\\aigc-wiki\\concepts\\style-mixing-strategies.md` |\n| 10 | 中文名 `风格混合策略.md` | **不存在** | |\n| 11 | `concepts/commercial-path.md` | 存在 | `...\\aigc-wiki\\concepts\\commercial-path.md` |\n| 11 | 中文名 `商业变现路径.md` | **不存在** | |\n| 12 | `自回归图像生成.md` | **不存在** | 在整个 vault 中均未找到 |\n\n**汇总：**\n- **全部存在（英文路径）：** 文件 1-11 都有对应的英文名文件存在于 `concepts/` 或根目录。\n- **仅文件 3 和 5 额外有中文名文件：** `提示词六维度万能公式.md` 和 `人像摄影提示词模板.md` 存在于根目录（而非 `concepts/` 目录下）。\n- **完全缺失：** 文件 12 `自回归图像生成.md` 在整个 vault 中都不存在。"
+      }
+    }
+  },
+  "currentNote": "AIGC学习计划.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 496,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 63360,
+    "contextWindow": 200000,
+    "contextTokens": 63856,
+    "percentage": 32,
+    "contextWindowIsAuthoritative": true
+  }
+}
