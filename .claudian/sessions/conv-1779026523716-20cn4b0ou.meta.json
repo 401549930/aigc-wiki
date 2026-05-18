@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779026523716-20cn4b0ou",
+  "providerId": "claude",
+  "title": "理解GPT Image 2与区分模糊指令",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779026523716,
+  "updatedAt": 1779027126228,
+  "lastResponseAt": 1779027126228,
+  "sessionId": "9453d741-c6b4-454a-9693-3eaff54b929c",
+  "providerState": {
+    "providerSessionId": "9453d741-c6b4-454a-9693-3eaff54b929c"
+  },
+  "currentNote": "AIGC学习计划.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 460,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46848,
+    "contextWindow": 200000,
+    "contextTokens": 47308,
+    "percentage": 24,
+    "contextWindowIsAuthoritative": true
+  }
+}
