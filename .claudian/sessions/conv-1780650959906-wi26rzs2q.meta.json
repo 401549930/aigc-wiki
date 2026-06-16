@@ -1,0 +1,24 @@
+{
+  "id": "conv-1780650959906-wi26rzs2q",
+  "providerId": "claude",
+  "title": "生成中英文对照示例",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780650959907,
+  "updatedAt": 1780651814266,
+  "lastResponseAt": 1780651814266,
+  "sessionId": "8d7ec895-ab08-48b3-bfc5-2644d29abbee",
+  "providerState": {
+    "providerSessionId": "8d7ec895-ab08-48b3-bfc5-2644d29abbee"
+  },
+  "currentNote": "AIGC学习计划.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 107,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 68608,
+    "contextWindow": 200000,
+    "contextTokens": 68715,
+    "percentage": 34,
+    "contextWindowIsAuthoritative": true
+  }
+}

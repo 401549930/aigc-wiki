@@ -1,0 +1,25 @@
+{
+  "id": "conv-1780652700910-kzs1vycd4",
+  "providerId": "codex",
+  "title": "撰写自我介绍",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780652700911,
+  "updatedAt": 1780654223406,
+  "lastResponseAt": 1780654223406,
+  "sessionId": "019e972b-ff64-7e92-8890-9637b7775563",
+  "providerState": {
+    "threadId": "019e972b-ff64-7e92-8890-9637b7775563",
+    "sessionFilePath": "C:\\Users\\76750\\.codex\\sessions\\2026\\06\\05\\rollout-2026-06-05T17-45-08-019e972b-ff64-7e92-8890-9637b7775563.jsonl",
+    "transcriptRootPath": "C:\\Users\\76750\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 92785,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 82816,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 92785,
+    "percentage": 36,
+    "model": "gpt-5.5"
+  }
+}

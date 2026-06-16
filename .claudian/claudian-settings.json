@@ -1,8 +1,8 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "off",
+  "model": "opus",
+  "thinkingBudget": "medium",
   "effortLevel": "medium",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -31,12 +31,12 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "customModels": "",
-      "lastModel": "haiku",
+      "lastModel": "opus",
       "environmentVariables": "",
       "environmentHash": ""
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
@@ -44,15 +44,15 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
-      "installationMethodsByHost": {},
-      "wslDistroOverride": "",
+      "installationMethodsByHost": {
+        "DESKTOP-R2TD5Q7": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
       "cliPath": "",
       "cliPathsByHost": {},
-      "enabled": false,
+      "enabled": true,
       "environmentHash": "",
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
@@ -63,17 +63,27 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "opus",
+    "codex": "gpt-5.5",
+    "opencode": "opencode"
   },
   "savedProviderEffort": {
-    "claude": "medium"
+    "claude": "medium",
+    "codex": "medium",
+    "opencode": "default"
   },
-  "savedProviderServiceTier": {},
+  "savedProviderServiceTier": {
+    "codex": "default"
+  },
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "medium",
+    "codex": "off",
+    "opencode": "medium"
   },
   "savedProviderPermissionMode": {
-    "claude": "yolo"
+    "claude": "yolo",
+    "codex": "yolo",
+    "opencode": "yolo"
   },
   "lastCustomModel": "",
   "maxTabs": 3,
